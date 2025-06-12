@@ -1,0 +1,12 @@
+[project]
+name = "when2eat"
+version = "0.1.0"
+description = "One UI platform to remind users of upcoming meals."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+
+[tool.uv.workspace]
+members = [
+    "cv_processing",
+]

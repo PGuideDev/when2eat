@@ -1,0 +1,9 @@
+[project]
+name = "cv-processing"
+version = "0.1.0"
+description = "Yolov8 model for meal detection and classification."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "ultralytics>=8.3.141",
+]
